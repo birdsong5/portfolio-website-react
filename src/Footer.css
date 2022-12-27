@@ -1,0 +1,46 @@
+:root {
+  --default-font: "Gantari", sans-serif;
+  --default-background-color: rgb(255, 246, 232);
+  --active-link-color: rgb(221, 77, 20);
+}
+
+footer {
+  padding: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+footer .email-link a {
+  font-family: var(--default-font);
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+footer .email-link {
+  padding: 0 0 40px 0;
+}
+footer .social-links a {
+  font-family: var(--default-font);
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+  padding: 10px 14px;
+  margin: 0 20px;
+  background-color: var(--default-background-color);
+  border-radius: 50%;
+}
+footer p {
+  font-family: var(--default-font);
+  opacity: 0.9;
+
+  font-size: 15px;
+  margin: 40px 30px 0;
+}
+footer p a,
+.shecodes-link {
+  color: rgb(1, 1, 97);
+}
+footer .email-link a:hover,
+footer .social-links a:hover {
+  color: var(--active-link-color);
+}

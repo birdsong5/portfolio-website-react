@@ -1,0 +1,32 @@
+nav {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  padding: 0 20px 0 0;
+  margin: 0;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+}
+nav li.nav-padding {
+  padding: 0 55px 0 0;
+}
+
+nav .Link {
+  font-family: var(--default-font);
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+nav .Link:hover,
+nav li.active a {
+  color: var(--active-link-color);
+}
